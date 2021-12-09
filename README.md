@@ -22,7 +22,7 @@ If your want to test the tweet api
 <p> >> mocha tweet.test.js </p>
 
 ** Like / unlike / retweet **
-<p>I should add the below checkings</p>
+<p>Sorry about that, i should add the below checkings</p>
 
 - like
 <p> >> if people unliked the tweet, when they like the tweet again, it should remove the old unliked record</p>
