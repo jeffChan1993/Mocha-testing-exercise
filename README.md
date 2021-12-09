@@ -1,2 +1,5 @@
 # speer_technologies
-speer_technologies back_end
+
+please rund this command
+npm install
+
