@@ -1,4 +1,4 @@
-# speer_technologies
+# Speer Technologies
 
 Run this command to install all dependencies
 <p> >> npm install</p>
