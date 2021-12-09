@@ -1,16 +1,18 @@
 module.exports = {
-  host: "localhost",
-  user: "root",
-  password: "root",
-  db: "twitter",
-  dialect: "mysql",
+  host: "", // your host
+  user: "", // your user
+  password: "", // your password
+  db: "", // your database name
+  dialect: "", //  mysql , mariadb , sqlite ,postgres ,mssql
   dialectOptions: {
-   socketPath: '../Applications/MAMP/tmp/mysql/mysql.sock'
+    // ohter option you may add
  },
-  pool: {
-    max: 5,
-    min: 0,
-    acquire: 30000,
-    idle: 10000
-  }
+
+  timezone: 'America/New_York', // yout timezone
+  // pool: {
+  //   max: 5,
+  //   min: 0,
+  //   acquire: 30000,
+  //   idle: 10000
+  // },
 };

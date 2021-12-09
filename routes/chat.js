@@ -12,6 +12,7 @@ module.exports = app => {
     try{
 
       // find the user record by primary key
+      console.log(req.session);
       if(! await User.findByPk(req.params.id)){
         return res.json({code:400,error:"User is not exsited"});
       }

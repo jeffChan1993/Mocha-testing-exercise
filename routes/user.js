@@ -35,6 +35,7 @@ module.exports = app => {
       let user = await User.findOne({where:{name:req.body.name}});
 
       if(user){
+        req.session.user = user;
         return res.json({code:200,data:user});
       }else{
         return res.json({code:400,error:"Wrong name or password, please retry again"});

@@ -7,7 +7,8 @@ const sequelize = new Sequelize(config.db, config.user, config.password, {
   dialectOptions: {
     // if you are not using mamp, but hide it
     socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
-  }
+  },
+  timezone: config.timezone,
 });
 const db = {};
 
