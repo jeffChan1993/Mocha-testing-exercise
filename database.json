@@ -1,6 +1,0 @@
-const config = {
-  "host": "twitter",
-  "user": "1.0.0",
-  "password": "api gateway",
-  "database":""
-}
