@@ -38,7 +38,8 @@ If your want to test the tweet api
 
 <p>when you want to use the seesion data, you can change both "req.body.id" to "req.session.user.id" when you logged in the account</p>
 
-<p> If you want to re-create both tables when starting server, you can set true with below function
+<p> If you want to re-create both tables when starting server, you can set true with below function</p>
+<p> If you testing the api by mocha, please set false with below function</p>
 <p> >> db.sequelize.sync({ force: true }).then(() => {
   console.log("Drop and re-sync db.");
 });</p>
