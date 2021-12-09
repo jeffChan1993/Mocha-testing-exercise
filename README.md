@@ -3,7 +3,7 @@
 Run this command to install all dependencies
 <p> >> npm install</p>
 
-Start the program by this command, system will auto crate the tables when your database is correct
+Start the program by this command, system will auto crate the tables when your database config is correct
 <p> >> node index.js </p>
 
 
@@ -19,6 +19,11 @@ If your want to test the chat api
 If your want to test the tweet api
 <p> >> mocha tweet.test.js </p>
 
+<p>when you want to use the seesion data, you can change both "req.body.id" to "req.session.user.id" when you logined the account</p>
 
+<p> If you want to re-create both tables when starting server, you can set true with below function
+<p> >> db.sequelize.sync({ force: true }).then(() => {
+  console.log("Drop and re-sync db.");
+});</p>
 Sequelize ORM 
 <p>https://sequelize.org/v5/</p>
