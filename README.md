@@ -23,15 +23,15 @@ If your want to test the tweet api
 <p>I should add the below checkings</p>
 
 - like
->> if people unliked the tweet, when they like the tweet again, it should remove the old unliked record
->> each people can only like the tweet once
+<p> >> if people unliked the tweet, when they like the tweet again, it should remove the old unliked record</p>
+<p> >> each people can only like the tweet once</p>
 
 - unlike
->> if people liked the tweet, when they unlike the tweet again, it should remove the old liked record 
->> each people can only unlike the tweet once
+<p> >> if people liked the tweet, when they unlike the tweet again, it should remove the old liked record </p>
+<p> >> each people can only unlike the tweet once </p>
 
 - retweet
->> each people can only retweet the tweet once
+<p> >> each people can only retweet the tweet once </p>
 
 
 <p>when you want to use the seesion data, you can change both "req.body.id" to "req.session.user.id" when you logged in the account</p>
