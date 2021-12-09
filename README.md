@@ -19,6 +19,21 @@ If your want to test the chat api
 If your want to test the tweet api
 <p> >> mocha tweet.test.js </p>
 
+** Like / unlike / retweet **
+<p>I should add the below checkings</p>
+
+- like
+>> if people unliked the tweet, when they like the tweet again, it should remove the old unliked record
+>> each people can only like the tweet once
+
+- unlike
+>> if people liked the tweet, when they unlike the tweet again, it should remove the old liked record 
+>> each people can only unlike the tweet once
+
+- retweet
+>> each people can only retweet the tweet once
+
+
 <p>when you want to use the seesion data, you can change both "req.body.id" to "req.session.user.id" when you logged in the account</p>
 
 <p> If you want to re-create both tables when starting server, you can set true with below function
