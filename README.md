@@ -9,6 +9,7 @@ Start the program by this command, system will auto crate the tables when your d
 
 
 ** Mocha **
+<p>* It is my first time to write the unit test , If you found any problem, please tell me :)<p>
 <p>* Please make sure that you are in /test directory*</p>
 <p>* Please make sure that you stop the node js program before run below command*</p>
 If your want to test the user api
