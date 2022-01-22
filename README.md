@@ -1,4 +1,4 @@
-# Speer Technologies Backend assessment
+# Mocha testing exercise
 
 
 Run this command to install all dependencies
